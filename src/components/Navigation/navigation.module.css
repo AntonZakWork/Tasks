@@ -1,0 +1,22 @@
+.sidebar {
+    background-color: blue;
+    padding: 20px;
+    }
+
+.item  {
+    color: whitesmoke !important;
+    text-decoration: none !important;
+}
+
+.item a:hover {
+    font-weight: bold;
+}
+
+.active {
+    color: darkorange !important;
+}
+
+.sidebarFriendsContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}

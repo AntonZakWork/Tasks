@@ -1,0 +1,10 @@
+.header {
+    background-color: aqua;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.header img  {
+    height: 20px;
+}
+

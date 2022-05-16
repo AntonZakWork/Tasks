@@ -1,0 +1,20 @@
+.sidebarAv {
+    display:block;
+    margin: auto;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.sidebarWrapper {
+    margin-left: -30px;
+    margin-top: 30px;
+    display: grid;
+    grid-template-rows: 40px, auto;
+}
+
+.sidebarFriendsName {
+    font-size: 12px;
+    margin:auto;
+    color: whitesmoke;
+}

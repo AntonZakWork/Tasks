@@ -1,0 +1,27 @@
+.message {
+    display: grid;
+    grid-template-columns: 40px auto 40px;
+    max-width: 400px;
+    margin-top: 10px;
+    border: 2px solid rgba(238, 130, 238, 0.589);
+    border-radius: 5px;
+}
+.avatarContainer {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.contextAvatar {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.text {
+    padding: 10px;
+}
+.text.author {
+    justify-self: end;
+   
+}

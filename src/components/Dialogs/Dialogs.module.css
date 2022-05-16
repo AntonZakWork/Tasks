@@ -1,0 +1,70 @@
+.dialogWrapper {
+    position:relative;
+    padding-top: 5px;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 250px 100px;
+}
+
+
+.friendsDialogContainer{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5px;
+}
+
+.dialogItems {
+    color: white;
+    text-decoration: none;
+    align-items: center;
+}
+.user {
+   padding: 5px;
+    position:relative;
+
+}
+.dialogItems:hover {
+    font-weight: bold;
+}
+.active {
+    color: darkorange;
+}
+
+.userPicture {
+    float: left;
+    width: 20px;
+    height: 20px;
+}
+
+.textarea {
+    position:relative;
+    width: 400px;
+    height: 50px;
+    grid-column-start: -2;
+    
+    
+}
+
+.textareaInput {
+    
+    width: 400px !important;
+    height: 50px !important;
+    outline: 2px solid rgba(238, 130, 238, 0.589);
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+#sendButton {
+    position: absolute;
+    display: block;
+    height: 40px;
+    top: 10px;
+    left: 360px;
+}
+
+.messageContainer {
+    width: 420px;
+    overflow: auto;
+}
